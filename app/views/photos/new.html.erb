@@ -1,0 +1,7 @@
+<div class="photo-container">
+  <%= form_with(model: @photo, class: 'form') do |f| %>
+    <%= f.file_field :photo_file, class: 'file'%>
+    <%=f.submit "Upload Photo", class: 'btn'%>
+  </p>
+<% end %>
+</div>
