@@ -1,0 +1,10 @@
+<div class="photo-container">
+<div class="photo">
+  <%if @photo.photo_file? %>
+    <h3>My photo</h3>
+    <%= image_tag(@photo.photo_file_url) %>
+  <%end%>
+</div>
+
+
+</div>
