@@ -1,0 +1,8 @@
+<div class="photo-container">
+  <h2>All uploaded Photo</h2>
+  <%@all_photos.each do |photo|%>
+    <div class="photo">
+      <%= image_tag(photo.photo_file_url) %>
+    </div>
+  <%end%>
+</div>
